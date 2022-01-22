@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 960650645414872868}
   - component: {fileID: 3075991418958050286}
   - component: {fileID: 1339079318223673698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tlie2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
