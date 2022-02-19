@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1067121154315498274}
   m_Layer: 0
   m_Name: Hazard
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,6 +93,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8276742794138259939, guid: 71d8b6cce5992eb499052a68cad5f9ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
+    - target: {fileID: -246185777977506604, guid: 71d8b6cce5992eb499052a68cad5f9ca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 71d8b6cce5992eb499052a68cad5f9ca,
         type: 3}
