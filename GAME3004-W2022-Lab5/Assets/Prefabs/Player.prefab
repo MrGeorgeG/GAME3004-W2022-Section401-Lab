@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 2875580236253286507}
   - component: {fileID: 2875580236253286506}
   - component: {fileID: 2875580236253286510}
+  - component: {fileID: 533058977}
+  - component: {fileID: 533058978}
   - component: {fileID: 2875580236253286509}
   m_Layer: 3
   m_Name: Player
@@ -189,6 +191,36 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &533058977
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2875580236253286504}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &533058978
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2875580236253286504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5498538
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.0498538}
 --- !u!114 &2875580236253286509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f9111255fc6d24992541c41fb26aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  uiController: {fileID: 0}
   maxSpeed: 10
   grayity: -30
   jumpHeight: 3
@@ -212,6 +244,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   isGrounded: 0
+  OnScreenControls: {fileID: 0}
+  leftJoyStick: {fileID: 0}
 --- !u!1 &2875580236902049921
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +311,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 375
+    m_Bits: 887
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -309,8 +343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd073a031577a6478e949353e6069af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 10
+  controlSensitivity: 3
   playerBody: {fileID: 2875580236253286508}
+  rightJoystick: {fileID: 0}
 --- !u!1 &2875580237099389755
 GameObject:
   m_ObjectHideFlags: 0
