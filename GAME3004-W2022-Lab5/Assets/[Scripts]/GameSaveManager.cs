@@ -8,9 +8,15 @@ using UnityEngine;
 [System.Serializable]
 class SaveData
 {
-    public float playerPositionX;
-    public float playerPositionY;
-    public float playerPositionZ;
+    public float[] playerPosition;
+    public float[] playerRotation;
+
+    public SaveData()
+    {
+        playerPosition = new float[3]; // Create empty container
+        playerRotation = new float[3]; // Create empty container
+    }
+    
 }
 
 public class GameSaveManager : MonoBehaviour
@@ -21,9 +27,13 @@ public class GameSaveManager : MonoBehaviour
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(Application.persistentDataPath + "/MySaveData.dat");
         SaveData data = new SaveData();
-        data.playerPositionX = player.position.x;
-        data.playerPositionY = player.position.y;
-        data.playerPositionZ = player.position.z;
+        data.playerPosition[0] = player.position.x;
+        data.playerPosition[1] = player.position.y;
+        data.playerPosition[2] = player.position.z; 
+        
+        data.playerRotation[0] = player.localEulerAngles.x;
+        data.playerRotation[1] = player.localEulerAngles.y;
+        data.playerRotation[2] = player.localEulerAngles.z;
         bf.Serialize(file, data);
         file.Close();
         Debug.Log("Game data saved!");
@@ -37,12 +47,17 @@ public class GameSaveManager : MonoBehaviour
             FileStream file = File.Open(Application.persistentDataPath + "/MySaveData.dat", FileMode.Open);
             SaveData data = (SaveData)bf.Deserialize(file);
             file.Close();
-            var x = data.playerPositionX;
-            var y = data.playerPositionY;
-            var z = data.playerPositionZ;
+            var x = data.playerPosition[0];
+            var y = data.playerPosition[1];
+            var z = data.playerPosition[2];
+
+            var Rotx = data.playerRotation[0];
+            var Roty = data.playerRotation[1];
+            var Rotz = data.playerRotation[2];
 
             player.gameObject.GetComponent<CharacterController>().enabled = false;
             player.position = new Vector3(x, y, z);
+            player.rotation = Quaternion.Euler(Rotx, Roty, Rotz);
             player.gameObject.GetComponent<CharacterController>().enabled = true;
 
             Debug.Log("Game data loaded");
