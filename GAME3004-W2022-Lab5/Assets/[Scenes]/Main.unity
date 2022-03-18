@@ -4495,6 +4495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: OnScreenControls
       objectReference: {fileID: 0}
+    - target: {fileID: 488634542965383365, guid: aef0114eba6e57b45bcb2c6d77716183,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 488634543159974067, guid: aef0114eba6e57b45bcb2c6d77716183,
         type: 3}
       propertyPath: m_text
