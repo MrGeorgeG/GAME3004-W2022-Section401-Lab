@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "emulator-5554",
     "m_SelectedPackage": {
         "deviceId": "emulator-5554",
-        "name": "ca.georgebrowncollege.game3004.lab6",
-        "processId": 3197,
+        "name": "ca.georgebrowncollege.game3004.lab7",
+        "processId": 3254,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -36,6 +36,12 @@
             "deviceId": "emulator-5554",
             "name": "ca.georgebrowncollege.game3004.lab6",
             "processId": 3197,
+            "exited": false
+        },
+        {
+            "deviceId": "emulator-5554",
+            "name": "ca.georgebrowncollege.game3004.lab7",
+            "processId": 3254,
             "exited": false
         }
     ],
