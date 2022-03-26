@@ -1,0 +1,649 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'zh' Physical Memory: 16339 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Program Files/unity/Section401/GAME3004-W2022-Lab6
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57364
+Successfully changed project path to: D:/Program Files/unity/Section401/GAME3004-W2022-Lab6
+D:/Program Files/unity/Section401/GAME3004-W2022-Lab6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 127.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/unity/Section401/GAME3004-W2022-Lab6/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980M (ID=0x13d7)
+    Vendor:   NVIDIA
+    VRAM:     8035 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013961 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 167.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (168ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009918 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\unity\Section401\GAME3004-W2022-Lab6\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files\unity\Section401\GAME3004-W2022-Lab6\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 163.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in 10.211 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10212ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (9797ms)
+			LoadAssemblies (5286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1039ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (3277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (164ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (1655ms)
+				ProcessInitializeOnLoadMethodAttributes (1246ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.5 MB). Loaded Objects now: 6374.
+Memory consumption went from 231.1 MB to 229.7 MB.
+Total: 5.336500 ms (FindLiveObjects: 0.528400 ms CreateObjectMapping: 0.442800 ms MarkObjects: 3.757500 ms  DeleteObjects: 0.606300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 676.147061 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/Advanced_UnPressed_mini.png
+  artifactKey: Guid(b356b95f05b77cf49a1b8241134f44c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/Advanced_UnPressed_mini.png using Guid(b356b95f05b77cf49a1b8241134f44c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057ccee4e5b8b8eb1d8fd6031d9235e2') in 0.183774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes/BlackboardFieldExposed.png
+  artifactKey: Guid(2e8113252e9a1b245a81dc384ae86446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes/BlackboardFieldExposed.png using Guid(2e8113252e9a1b245a81dc384ae86446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2953b355a4474c9cf48528a5ed37c2b4') in 0.079793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/SoftAreaLight.png
+  artifactKey: Guid(e10d9c07adc061a448e00b3e33fad966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/SoftAreaLight.png using Guid(e10d9c07adc061a448e00b3e33fad966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39405467335b19a21559a3a9afd2eeca') in 0.033676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/Sparkle.png
+  artifactKey: Guid(4a0aca3a5f2effb41b43cc0a1661d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/Sparkle.png using Guid(4a0aca3a5f2effb41b43cc0a1661d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4162bf05e50361f1abc940402ff393e0') in 0.111916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fc46b53ed1bd06773f548177fefd51') in 0.051445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-dark@2x.png
+  artifactKey: Guid(de4c62a7de5c61a41b5b0029b339f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-dark@2x.png using Guid(de4c62a7de5c61a41b5b0029b339f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80b5ba339ef8fd6d976d630ab3f10cd') in 0.047798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BrightSky@2x.png
+  artifactKey: Guid(04c70b69874deb746a4c63f1a29f7715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BrightSky@2x.png using Guid(04c70b69874deb746a4c63f1a29f7715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a9da6d072f15b292dfacb6c1009bef') in 0.054355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-dark.png
+  artifactKey: Guid(849b7119dad13a24397add67a7f78510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-dark.png using Guid(849b7119dad13a24397add67a7f78510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c989d1efdc2fe2f8417b553394f13b4e') in 0.045391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/SoftAreaLight@2x.png
+  artifactKey: Guid(b14c34aa843e4a14e957505ae407e8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/SoftAreaLight@2x.png using Guid(b14c34aa843e4a14e957505ae407e8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdcc14b5408fc691249ad1b184054fa') in 0.030823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/bitfield-bkgnd.png
+  artifactKey: Guid(e9f17ea2d74564042b3d527ab3cbc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/bitfield-bkgnd.png using Guid(e9f17ea2d74564042b3d527ab3cbc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e3bb353c6e16344a64c01af2c9c7c1') in 0.025224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb8d8daea76bff95318bb2d340d80b2') in 0.033272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/Advanced_Pressed_mini.png
+  artifactKey: Guid(c1d870384c7ed3c49b30d01278bf3949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/Advanced_Pressed_mini.png using Guid(c1d870384c7ed3c49b30d01278bf3949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e27b92201dfc984cf5e09081f93526') in 0.026540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a4360c4387dfcbdcdf456f90bb5db7') in 0.066075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21720ebc2500a65f5830679972880608') in 0.046604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/bitfield-bit.png
+  artifactKey: Guid(dba25e3261c16e34b848637315b82d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/bitfield-bit.png using Guid(dba25e3261c16e34b848637315b82d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729bddc349ee860b2ef13d4a8d3c4628') in 0.017047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/SignedDistanceField.asset
+  artifactKey: Guid(5c2949c31aafddd4e8011ffdebb8fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/SignedDistanceField.asset using Guid(5c2949c31aafddd4e8011ffdebb8fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c325db7de5d21b6ec3a39f1d7ff6d1a') in 0.062163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Add.png
+  artifactKey: Guid(cbaeed03e5416aa4bae23110b63a0c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/Add.png using Guid(cbaeed03e5416aa4bae23110b63a0c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f4a9ca5e012c23add964e770c93722') in 0.051708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/spaceworld.png
+  artifactKey: Guid(4a4e1ef9bae46664e9d4ceddf657236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/spaceworld.png using Guid(4a4e1ef9bae46664e9d4ceddf657236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0307d675f0769bc715a697d6d78d1ae5') in 0.015050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703062c4887d470196a6cf3603177e43') in 0.043182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-light.png
+  artifactKey: Guid(9c0e0aeb2cb19c640a4d430e258e7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-light.png using Guid(9c0e0aeb2cb19c640a4d430e258e7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bfcab9358e00d5a53774ca189056fb') in 0.032534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/Sparkle.tga
+  artifactKey: Guid(49cb5aa34272b034d8b754c65d9cdbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/Sparkle.tga using Guid(49cb5aa34272b034d8b754c65d9cdbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fc518c70e86e2cad2306c80c6987f9') in 0.164997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/spacelocal.png
+  artifactKey: Guid(1acd6ca26a40f3e49885afad7549c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/spacelocal.png using Guid(1acd6ca26a40f3e49885afad7549c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72a76e3ec7c026343eadd92def490ed') in 0.013846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Bronze_N.tif
+  artifactKey: Guid(1d7f771daa1f08a459ac0e2a3209d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bronze_N.tif using Guid(1d7f771daa1f08a459ac0e2a3209d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34173f0779d9dd7be6dec02411468f2b') in 0.129221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/ShapeToolPro.png
+  artifactKey: Guid(fdee5855bd8fd6841bd4d01b0bbeedc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/ShapeToolPro.png using Guid(fdee5855bd8fd6841bd4d01b0bbeedc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f4f2ad2ff03dc0820906f5ce5303b3') in 0.072659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aa376957940d7af307a4e51239b3e7') in 0.050924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804af4f451178f7ec0ba799165332022') in 0.038432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Bronze_R.tif
+  artifactKey: Guid(9cf393bc03f50b345b1cbd54ae492c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bronze_R.tif using Guid(9cf393bc03f50b345b1cbd54ae492c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69fff785c42b284b7fb78105fd45d15') in 0.072196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec668f50d080372dddd0281c6503a0d3') in 0.095863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky@2x.png
+  artifactKey: Guid(42382485181c7b4429560828f54a2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky@2x.png using Guid(42382485181c7b4429560828f54a2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808bb5b5dfd034eb938991843ce0f29d') in 0.063341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
+  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b2818daefc1be1d1839a5c02970a73') in 0.044255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c46a07717656467fff581730281fa09') in 0.045604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076f407162517f1a7ad36cc553a0ea59') in 0.049101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/2D/Sparkle.png
+  artifactKey: Guid(119f93d0bcbf1e743bf5fcf237507d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/2D/Sparkle.png using Guid(119f93d0bcbf1e743bf5fcf237507d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a307ea1886f7236c0e3674ae4c5dc861') in 0.045070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky.png
+  artifactKey: Guid(60d4d0573fefbf24198d33863004e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky.png using Guid(60d4d0573fefbf24198d33863004e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf3935bbc5388cb5bc1c5d57f327c29') in 0.048951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.102811 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cdc1b941dabb4b42040e77b43cbb4b') in 0.346687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.074995 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a694f43a3bdb58aea6a4b75f78a490') in 0.023425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.927793 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70037088b8a48e96116b6223962a3a56') in 0.014439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.668507 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cf297d0b75529dff7c822a6ea638f0') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.797643 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142e9847115a96f1d106f5c3cb9c972f') in 0.013115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.267396 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf4bdf25647ba8ecae61996fd69943f') in 0.014661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.383556 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5454aebfdb12aef62e41a49483b5a524') in 0.014858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.362540 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebf9f7a599f3a3199b5fea55b573368') in 0.015264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.818309 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c5d11f1aaa4051b7655266ea07bdd') in 0.014729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.491370 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cc62d20857bbd08c9d1eef215ac56d') in 0.014340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.585110 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466bb62340aa50407c3ab6a42ee13d7d') in 0.013899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.118105 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca740ca34a821bb6b26f33c489e6a5d') in 0.014298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.502828 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e558fd37c6ffbf18a85d565abd2addb4') in 0.013646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.737491 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4d63b129b1a2c75f208aae71b70e38') in 0.013934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.792658 seconds.
+  path: Assets/XternalAssets/Samples/Visual Effect Graph
+  artifactKey: Guid(08771cacd3b85a440a2f03e1e978e6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XternalAssets/Samples/Visual Effect Graph using Guid(08771cacd3b85a440a2f03e1e978e6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ccd655009e2e518c4636d84472833e') in 0.047146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.764709 seconds.
+  path: Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Smoke.vfx
+  artifactKey: Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Smoke.vfx using Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd9880fd7c583fca6c7bea509e55cad') in 0.167264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.012142 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f31a95c8df200c41776b93b241824') in 0.014809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.238876 seconds.
+  path: Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Smoke.vfx
+  artifactKey: Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Smoke.vfx using Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27a3b67cd04d55301449308a7a73223') in 0.154803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.902922 seconds.
+  path: Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Smoke.vfx
+  artifactKey: Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Smoke.vfx using Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817fc4f97163dae24351fde69c3f5f23') in 0.160416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.325209 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8657e5b462045a59eedf8bdb192f3f') in 0.013971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.815726 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5a4674117c89a6c12273384bcd8dc4') in 0.013953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.678438 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a8b5e3f7d5c00faddb0429dbed6641') in 0.019691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.051359 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1572f51be00ac2f66fb3a8b826c7c2c4') in 0.016168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.179010 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe46467adc84698a17d587d8e393722') in 0.016406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.860549 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb1e0f14d2d93fd2a472e465b50e8da') in 0.014058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.261257 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e900210f6e4d90f0b47c5e37fe781a18') in 0.014802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.708610 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbf7ba878abc7a52d789222871ff257') in 0.012636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.486677 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866eb062bd108cd1288ca77d29b0ce8d') in 0.012707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.229441 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de58416628f85e5ab1d4ae10ba8e8661') in 0.014891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.994348 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96728bebd6f181445e7735d518ce681') in 0.014742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.056867 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4270ae83d340d33e00c379557b5009b') in 0.014337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.573183 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d43023657d486a77e2861d141d607') in 0.012568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.658280 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485baa3b9c2f5784e146aa333470760e') in 0.012792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.458570 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ffc914175d2274216c4cecfecf5862') in 0.013688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.194884 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6224e171dfaaf9568ec752e41d54cd4') in 0.017030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.085426 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dd4200ef8f5717ede161485880d7b1') in 0.012464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.745785 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280019148a916be53599e7191fe18fe7') in 0.013400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.266577 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ea8c49375357025a77612a7edb03b') in 0.015298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.038133 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525ac2f8341ed832a3c2f8f1e18fd958') in 0.016160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.495811 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9931920e25cf6ece930b93922e3a1c32') in 0.018871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.871025 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f106033be2efab0a4ea52dbbcffa4a') in 0.014655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.743740 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1911d97408a4299ddd7bfb6138aaa718') in 0.015298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.965874 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c04f64166ac509a6608cede74bbbceb') in 0.013403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.365775 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710c75a52c01dedbc954fc1da5f3d43a') in 0.013503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.924327 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23785b0facb91a8c066e2b9a8c40a7f2') in 0.014274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.019954 seconds.
+  path: Assets/VFX/Smoke.vfx
+  artifactKey: Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Smoke.vfx using Guid(edab06e1dfce26e45959f72080544811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cc969be04558fc54f52685e763d144') in 0.144311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.322457 seconds.
+  path: Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Sparks.vfx
+  artifactKey: Guid(1194657162895cf41a278fe3576dbb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XternalAssets/Samples/Visual Effect Graph/12.1.2/VisualEffectGraph Additions/VFX/Sparks.vfx using Guid(1194657162895cf41a278fe3576dbb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664df3dc2b4b67562585d661f8a6bd75') in 0.155766 seconds 
