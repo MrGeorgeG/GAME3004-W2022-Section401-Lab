@@ -9,17 +9,17 @@ public class MapGenerator : MonoBehaviour
     public Transform spawnPoint;
 
     [Header("World Properties")]
-    [Range(8, 64)]
+    [Range(8, 128)]
     public int height = 8;
-    [Range(8, 64)]
+    [Range(8, 128)]
     public int width = 8;
-    [Range(8, 64)]
+    [Range(8, 128)]
     public int depth = 8;
 
     [Header("Scaling Values")]
-    [Range(8, 64)]
+    [Range(8, 128)]
     public float min = 16.0f;
-    [Range(8, 64)]
+    [Range(8, 128)]
     public float max = 24.0f;
 
     [Header("Tile Properties")]
@@ -91,7 +91,7 @@ public class MapGenerator : MonoBehaviour
 
                     if (y < perlinValue)
                     {
-                        var tile = Instantiate(threeDTile, new Vector3(x, y, z), Quaternion.identity);
+                        var tile = Instantiate(threeDTile, new Vector3(x * threeDTile.transform.localScale.x, y * threeDTile.transform.localScale.y, z * threeDTile.transform.localScale.z), Quaternion.identity);
                         tile.transform.SetParent(tileParent);
                         grid.Add(tile);
 
@@ -183,7 +183,7 @@ public class MapGenerator : MonoBehaviour
     private void PositionPlayer()
     {
         player.gameObject.GetComponent<CharacterController>().enabled = false;
-        player.position = new Vector3(width * 0.5f, height + 5.0f, depth * 0.5f);
+        player.position = new Vector3(width * 0.5f * threeDTile.transform.localScale.x, height * threeDTile.transform.localScale.y + 5.0f, depth * 0.5f * threeDTile.transform.localScale.z);
         spawnPoint.position = player.position;
         player.gameObject.GetComponent<CharacterController>().enabled = true;
     }
